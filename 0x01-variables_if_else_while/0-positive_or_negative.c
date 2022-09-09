@@ -2,10 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * Function - random number generator
- * @n random number
+ * main - Entry point
  *
- * main - entry point
+ * Return: Always 0 (Success)
  */
 int main(void)
 {

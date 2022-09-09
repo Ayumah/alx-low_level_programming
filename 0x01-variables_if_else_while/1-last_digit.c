@@ -3,12 +3,10 @@
 #include <time.h>
 /**
  * main - Entry point
- * print the last digit of a random number
- * main - entry point
+ *
+ * Return: Always 0 (Success)
  */
-
-	int main(void)
-
+int main(void)
 {
 
 	int n, num;
