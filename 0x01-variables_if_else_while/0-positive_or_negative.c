@@ -6,6 +6,7 @@
 /* n: randon number*/
 /* function main is the entry point*/
 /* Return: always 0 (success)*/
+
 int main(void)
 {
 	int n;
