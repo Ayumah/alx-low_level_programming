@@ -1,10 +1,8 @@
 #include <stdio.h>
 /**
- * main - prints alpahbets in lower case
+ * main - Entry point
  *
- *
- *
- * return: 0 (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
