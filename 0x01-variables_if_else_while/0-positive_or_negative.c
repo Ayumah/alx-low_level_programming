@@ -1,11 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* main - entry point*/
-/* Generate random number and state whether it is negative, positive / zero*/
-/* n: randon number*/
-/* function main is the entry point*/
-/* Return: always 0 (success)*/
+/**
+* main - entry point
+* Generate random number and state whether it is negative, positive / zero
+* n: randon number
+*/
+/** main - entry point
+*/
 int main(void)
 {
 	int n;
