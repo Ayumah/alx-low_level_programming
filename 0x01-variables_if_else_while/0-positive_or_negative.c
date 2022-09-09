@@ -1,9 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
-/* main - Entry point*/
+/**
+* assign a random number to the value n and state whether it is negative, positive or zero
+* n: randon number
+* main - Entry point
+*/
 int main(void)
 {
 	int n;
