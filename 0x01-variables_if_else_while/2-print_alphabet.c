@@ -2,7 +2,9 @@
 /**
  * main - prints alpahbets in lower case
  *
- * return: always 0 (success)
+ *
+ *
+ * return: 0 (success)
  */
 int main(void)
 {
@@ -17,6 +19,6 @@ int main(void)
 	}
 	putchar('\n');
 
-	return(0);
+	return (0);
 
 }
