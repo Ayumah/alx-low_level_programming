@@ -4,13 +4,14 @@
 /** print the last digit of a random number*/
 
 /** main - entry point*/
-int main(void)
+
+	int main(void)
 
 {
 
 	int n, num;
+	
 	srand(time(0));
-
 	n = rand() - RAND_MAX / 2;
 	num = n % 10;
 
