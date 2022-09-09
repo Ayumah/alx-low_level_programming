@@ -2,9 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* assign a random number to the value n and state whether it is negative, positive or zero
+* Main - Entry point
+* Program - generate random number and state whether it is negative, positive / zero
 * n: randon number
-* main - Entry point
+* function main is the entry point
+* Return: always 0 (success)
 */
 int main(void)
 {
