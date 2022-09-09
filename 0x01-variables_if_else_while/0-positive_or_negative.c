@@ -7,7 +7,7 @@
  *
  * main - entry point
  */
-int main(void) /** main - entry point*/
+int main(void)
 {
 	int n;
 
