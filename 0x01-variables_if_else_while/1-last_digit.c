@@ -1,10 +1,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/** print the last digit of a random number*/
+/* print the last digit of a random number*/
 
-/** main - entry point
-*/
+/* main - entry point*/
 
 	int main(void)
 

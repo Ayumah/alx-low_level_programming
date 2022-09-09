@@ -6,8 +6,7 @@
 * Generate random number and state whether it is negative, positive / zero
 * n: randon number
 */
-/** main - entry point
-*/
+/* main - entry point*/
 	int main(void)
 {
 	int n;
