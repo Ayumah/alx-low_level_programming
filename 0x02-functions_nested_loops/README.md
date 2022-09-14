@@ -10,3 +10,8 @@ File: 2-print_alphabet_x10.c - function that prints 10 times the alphabet, in lo
 File: 3-islower.c -  function that checks for lowercase character
 
 
+File: 4-isalpha.c - function that checks for alphabetic character
+
+File: 5-sign.c - function that prints the sign of a number
+
+
