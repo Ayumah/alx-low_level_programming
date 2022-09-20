@@ -2,7 +2,7 @@
 
 /**
  * rev_string - prints a string in reverse
- * @s - string to be printed
+ * @s: string to be printed
  *
  */
 void rev_string(char *s)
@@ -16,7 +16,7 @@ void rev_string(char *s)
 
 	for (i = 0; i < len - 1; i++)
 	{
-		
+
 		end++;
 
 	}
@@ -30,6 +30,11 @@ void rev_string(char *s)
 		end--;
 	}
 }
+/**
+ * _strlen - counts the lenght of a string
+ *
+ * Return: i 
+ */
 int _strlen(char *s)
 {
 	int i = 0;
