@@ -32,9 +32,9 @@ void rev_string(char *s)
 }
 /**
  * _strlen - counts the lenght of a string
- * @str: string to be counted
+ * @s: string to be counted
  *
- * Return: i 
+ * Return: i
  */
 int _strlen(char *s)
 {
