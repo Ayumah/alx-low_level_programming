@@ -15,17 +15,20 @@ void rev_string(char *s)
 	end    = s;
 
 	for (i = 0; i < len - 1; i++)
+	{
+		
 		end++;
 
-		for (i = 0; i < len / 2; i++)
-		{
-			temp   = *end;
-			*end   = *begin;
-			*begin = temp;
+	}
+	for (i = 0; i < len / 2; i++)
+	{
+		temp   = *end;
+		*end   = *begin;
+		*begin = temp;
 
-			begin++;
-			end--;
-		}
+		begin++;
+		end--;
+	}
 }
 int _strlen(char *s)
 {

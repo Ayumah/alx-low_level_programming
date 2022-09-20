@@ -22,6 +22,11 @@ void puts2(char *str)
 	_putchar('\n');
 
 }
+/**
+ * _strlen - counts the length of a string
+ *
+ * Return: i on success
+ */
 int _strlen(char *str)
 {
 	int i;
