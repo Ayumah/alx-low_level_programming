@@ -24,6 +24,7 @@ void puts2(char *str)
 }
 /**
  * _strlen - counts the length of a string
+ * @str: string to be counted
  *
  * Return: i on success
  */
