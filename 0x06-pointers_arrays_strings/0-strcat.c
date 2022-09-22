@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * *_strcat - function that concatenates two strings
- * @src: string to be appended
- * @dest: destination string
+ * _strlen - function that gets length of string
+ * @s: string to be counted
  *
- * Return: dest - a pointer to the resulting string
+ * Return: n - length of the string
  */
 int _strlen(char *s)
 {
@@ -18,6 +17,13 @@ int _strlen(char *s)
 	return (n);
 
 }
+/**
+ * *_strcat - function that concatenates two strings
+ * @src: string to be appended
+ * @dest: destination string
+ *
+ * Return: dest - a pointer to the resulting string
+ */
 char *_strcat(char *dest, char *src)
 {
 
