@@ -1,8 +1,6 @@
 #include "main.h"
 /**
- * *_strncpy - copies the string pointed to by src,
- * including the terminating null byte (\0),
- * to the buffer pointed to by dest
+ * *_strncpy - copies fixed length string
  * @src: string to be copied
  * @dest: destination to copy the string
  * @n: length of string
@@ -19,9 +17,10 @@ char *_strncpy(char *dest, char *src, int n)
 		dest[i] = src[i];
 
 	}
-
-	dest[i] = '\0';
-
+	for (; i < n; i++)
+	{
+		dest[i] = '\0';
+	}
 
 	return (dest);
 }
