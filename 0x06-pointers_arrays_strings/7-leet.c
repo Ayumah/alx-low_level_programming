@@ -1,23 +1,5 @@
 #include "main.h"
 /**
- * _strlen - function that gets length of string
- * @s: string to be counted
- *
- * Return: n - length of the string
- */
-int _strlen(char *s)
-{
-
-	int n;
-
-	for (n = 0; *s != '\0'; s++)
-
-		n++;
-
-	return (n);
-
-}
-/**
  * leet - encodes a string
  * @str: string to be encoded
  *
