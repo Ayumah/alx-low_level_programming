@@ -8,15 +8,16 @@
  * @s2: The second string.
  * @n: The maximum number of bytes of s2 to concatenate to s1.
  *
- * Return: on success return a pointer to a newly allocated space in memory 
+ * Return: on success return a pointer to a newly allocated space in memory
  *		containing s1 and n bytes of s2
- *         	on failure return NULL
+ *		on failure return NULL
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *s;
 	unsigned int i;
 	unsigned int len;
+
 	len = n;
 
 	if (s1 == NULL)
