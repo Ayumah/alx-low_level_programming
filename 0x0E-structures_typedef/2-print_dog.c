@@ -4,7 +4,7 @@
 
 /**
  * print_dog - a function that prints struct dog
- * @d - the dog to the printed
+ * @d: the dog to the printed
  *
  */
 void print_dog(struct dog *d)
