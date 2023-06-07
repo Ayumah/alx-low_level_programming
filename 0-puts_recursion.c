@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _puts_recursion - Recursive finction that prints a string, followed by a new line.
+ * _puts_recursion - Recursive finction that prints a string, followed by a new line
  * @s: The string to be printed
  */
 void _puts_recursion(char *s)
