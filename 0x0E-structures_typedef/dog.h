@@ -27,4 +27,4 @@ void free_dog(dog_t *d);
 int _strlen(char *str);
 char *_strcopy(char *dest, char *src);
 
-#endif
+#endif /* DOG_H */
